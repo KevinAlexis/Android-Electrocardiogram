@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyHeartCouch</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="str_leciones">Aquí podrás encontrar información de electrocardiografía, así como llevar un control de aquellas lecciones que has completado</string>
+
+    <!-- TODO: Lesson One -->
+    <string name="str_L1_P1_1">La ruta que toma la onda de depolarización se muestra en la figura 1. El nónulo sinoatrial que actua como marcapasos,
+        desde este punto la onda se esparce a través del atria hacia el nódulo atrioventricular.
+        El impulso de la señal es brevemente retrasado en el nódulo atroventricular y una contracción atrial es completada
+    </string>
+    <string name="str_L1_P1_2">La onda de depolarización entonces procede rápidamente al bundle de His donde
+    se divide en dos caminos y viaja a través de las ramificaciones izquiera y derecha. El impulso viaja a través del
+    septum ventricular a la base del corazón, donde el bundle se divide dentro del systema Purkinje. Desde aquí la onda de
+    depolarización es distribuida a las paredes ventricuares e inicia la contracción ventricular</string>
+    <string name="str_L1_P1_3">El ECG procesa la señal tomada con los electrodos para producir una representación fráfica
+    de la actividad eléctrica del corazón del paciente</string>
+    <string name="str_L1_P1_4">La onda P es una pequeña deflección que representa la depolarización atrial</string>
+    <string name="str_L1_P1_5">El intervalo PR es el tiempo entre la primera deflección de la onda P y la primera
+    deflección del  complejo QRS</string>
+
+    <!-- TODO: Lesson Two -->
+
+    <string name="str_L1_P2_1">Las tres ondas del QRS representan la depolarización ventricular.Una fe los aspectos más confusos en
+    la lectua de ECG es precísamente es la lectura de este conjunto de ondas. La regla es :
+    si la onda inmediate después del tipo de onda P tiene deflección hacia arriba , es una onda R
+    , si tiene una deflección hacia abajo , es una onda Q</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

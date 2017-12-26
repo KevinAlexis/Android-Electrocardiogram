@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:fab="http://schemas.android.com/apk/res-auto"
+                tools:context="com.ricardo.elias.alexis.myheartcouch.Fragments.FragmentLoadWave">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fab:cardUseCompatPadding="true"
+        fab:cardCornerRadius="20dp"
+        android:id="@+id/cardView"
+        android:layout_above="@+id/seekBar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/linechart_ecg_loaded"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                >
+            </com.github.mikephil.charting.charts.LineChart>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/seekBar"/>
+
+
+
+</RelativeLayout>

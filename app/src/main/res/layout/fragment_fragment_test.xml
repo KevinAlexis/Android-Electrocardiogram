@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="com.ricardo.elias.alexis.myheartcouch.Fragments.FragmentTest">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80"
+        android:id="@+id/line_test"
+        >
+    </com.github.mikephil.charting.charts.LineChart>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_play_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_test"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_weight="20"
+        android:src="@drawable/ic_action_play"
+
+        />
+
+
+
+</LinearLayout>

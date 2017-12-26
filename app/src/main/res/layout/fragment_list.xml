@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.ricardo.elias.alexis.myheartcouch.LessonsFragments.EscogerLeccionesFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#5b5a5a"
+        android:gravity="center"
+        android:id="@+id/text_bienbenido"
+        android:layout_below="@+id/textView2"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_leciones"
+        android:layout_below="@+id/text_bienbenido"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#5b5a5a"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:id="@+id/textView3"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_general"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView3">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:text="My Heart Couch"
+        android:textColor="#d93838"
+        android:textStyle="bold"
+        android:src="@drawable/img_splash"
+        android:textSize="19sp"
+        android:layout_height="55dp"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

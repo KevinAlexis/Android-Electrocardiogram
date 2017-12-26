@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorPrimary"
+    android:id="@+id/activity_my_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/img_splash"
+        android:tint="#ffffff"
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="My Heart Couch"
+        android:textStyle="bold|italic"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:layout_marginBottom="37dp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>
